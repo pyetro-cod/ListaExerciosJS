@@ -5,6 +5,5 @@ function criaSaudacao(saudacao){
 }
 
 const oi = criaSaudacao("Oi");
-const ola = criaSaudacao("Olá")
 
-console.log(oi("Pyetro"))
+console.log(oi("k"))
