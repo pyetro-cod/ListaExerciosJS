@@ -9,11 +9,13 @@ function criarContador() {
         },
         
         // Função de zerar
-        zerar: () => {
-            tot = 0;
-            console.log(`Zerado: ${tot}`);
+        sub: () => {
+            tot--;
+            console.log(`Subtrair: ${tot}`);
         }
     }
 };
 const incrementar = criarContador();
-incrementar.zerar()
+incrementar.incrementar()
+incrementar.incrementar()
+incrementar.sub()
