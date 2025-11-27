@@ -1,8 +1,7 @@
-const button = document.getElementById('btn-aumenta');
-const text = document.getElementById('text');
+const input = document.getElementById('text');
+const tot = document.getElementById('tot');
 
-button.addEventListener('click', () => {
-    text.style.fontSize = '30px';
-    text.style.textTransform = 'UpperCase';
-    
+input.addEventListener('input', () => {
+    const textEcrito = input.value;
+    tot.textContent = textEcrito.length;
 })
