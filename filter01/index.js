@@ -1,4 +1,4 @@
-const numeros = [5, 12, 8, 20, 3];
-const filterNum = numeros.filter(value => value > 10);
+const palavras = ["sol", "carro", "livro", "ar", "casa"];
 
-console.log(filterNum)
+const filterPalavra = palavras.filter(value => value.length > 3);
+console.log(filterPalavra)
