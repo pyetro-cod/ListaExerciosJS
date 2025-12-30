@@ -7,7 +7,6 @@ function criarContador() {
             tot++;
             console.log(`Incrementando: ${tot}`);
         },
-        
         // Função de zerar
         sub: () => {
             tot--;

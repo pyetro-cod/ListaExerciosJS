@@ -4,5 +4,5 @@ const produtos = [
   { nome: "Teclado", preco: 150 }
 ];
 
-const preco = produtos.map(obj => ({preco: obj.preco}));
+const preco = produtos.map(obj => ({nome: obj.preco}));
 console.log(preco)

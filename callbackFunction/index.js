@@ -1,10 +1,15 @@
-function executarAcao(callback) {
-    callback();
-
+function saudacao(nome, callback) {
+  console.log(`Olá, ${nome}!`);
+  callback(); // executa a função passada
 }
-executarAcao(function() {
-    console.log('Ação executada');
-});
+
+function despedida() {
+  console.log("Até logo!");
+}
+
+saudacao("Pyetro", despedida);
+
+
 
 
 // // Opção 2: Função Anônima (definida na hora)
